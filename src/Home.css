@@ -1,0 +1,297 @@
+.home-container {
+    padding: 40px; 
+    background-color: #eaf0f6;
+}
+
+.welcome-section {
+    margin-bottom: 50px;
+}
+
+.welcome-text {
+    margin: auto;
+    width: 70%; 
+    padding: 70px 0; 
+}
+
+.welcome-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.welcome-text p {
+    font-size: 20px;
+    margin-bottom: 20px; 
+    font-weight: 400; 
+    letter-spacing: 0.25px;
+}
+
+.get-started-btn {
+    padding: 10px 20px;
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: 0.5s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #e14242; 
+}
+
+.welcome-image img {
+    width: 70%;
+    height: auto;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    max-width: 50%; 
+}
+
+.about-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.about-text p {
+    font-size: 20px; 
+    font-weight: 400;  
+    letter-spacing: 0.25px;
+}
+
+.about-image img {
+    width: 90%;
+    height: auto; 
+}
+
+.social-proof-section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.social-proof-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.social-proof-section p {
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: black ; 
+    font-weight: 300;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review {
+    background-color: #7AB2B2;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    
+} 
+
+.review:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.review img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; 
+    margin-right: 10px;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-role {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 10px; 
+    font-weight: 500;
+}
+
+.user-review {
+    font-size: 16px;
+} 
+
+.review p { 
+    color: black; 
+    font-size: 25px;
+}
+
+.separator {
+    height: 2px;
+    background-color:black; 
+    margin: 50px 0; 
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+}  
+
+.new-section {
+    padding: 2rem 0;
+}
+
+.new-section .p-button-raised {
+    margin-right: 1rem;
+}
+
+.magic-task-section {
+    text-align: center;
+    padding: 40px 20px; 
+    
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px; 
+    font-weight: 400;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: center; 
+    
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background-color: #7AB2B2;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    text-align: center; 
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  .feature-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+} 
+  .feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    font-size: 20px;
+  }
+  
+  .meet-lessa-section {
+    background-color: #eaf0f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .meet-lessa-card {
+    background-color: #4D869C;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
+    width: 60%;  
+    color: white; 
+    font-size: 16px;
+   
+  }
+  
+  .meet-lessa-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .meet-lessa-card p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  } 
+
+  .contact-form-container {
+    background-color: #eaf0f6;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-form-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  textarea.input-field {
+    border-radius: 20px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #003366;
+  }
+  

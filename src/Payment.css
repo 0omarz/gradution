@@ -1,0 +1,107 @@
+.subscription-container {
+    padding: 20px;
+    background-color: #eaf0f6;
+    font-family: Arial, sans-serif; 
+    height: 91vh;  
+    padding-top: 150px;
+
+  }
+  
+  .subscription-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscription-method-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    color: #ffff;
+  }
+  
+  .subscription-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-methods label {
+    font-size: 16px; 
+    color: white;
+  } 
+ 
+  
+  .payment-fields {
+    margin-bottom: 20px; 
+    color: white;
+  }
+  
+  .payment-fields p {
+    margin-bottom: 10px;
+    font-size: 18px; 
+    font-weight: 400;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .card-expiry-cvc {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-expiry-cvc .input-field {
+    width: 30%;
+  }
+  
+  .subscription-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-button,
+  .ok-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .cancel-button:hover {
+    background-color: #bbb;
+  }
+  
+  .ok-button {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .ok-button:hover {
+    background-color: #e14242;
+  }
+  

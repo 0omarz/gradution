@@ -1,0 +1,130 @@
+/* Payment Cards Section */
+.pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.pricing-container .title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-container .title p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.payment-cards-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+
+
+
+}
+
+.payment-card {
+  width: 600px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.payment-card:hover {
+  transform: translateY(-5px);
+}
+
+.payment-card-inner {
+  flex: 1;
+  /* Take full height of parent (.payment-card) */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Align content to space between */
+  padding: 20px;
+  transition: background-color 0.25s ease, color 1s ease;
+
+}
+
+.payment-card-inner:hover {
+  background-color: #0D9276;
+  color: #e0e0e0;
+  .card-header h3 {
+    color: white;
+  } 
+  .card-header p { 
+    color: white;
+  }
+ 
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.card-header h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.card-header p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.card-body {
+  flex: 1;
+  /* Allow body to expand */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Ensure content is spaced between */
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  /* Add margin at the bottom of features list */
+}
+
+.card-body ul li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.card-body ul li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: black;
+}
+
+.choose-plan-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #698474;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.choose-plan-btn:hover {
+  background-color: #758694;
+
+}
